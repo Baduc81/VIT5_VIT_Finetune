@@ -1,0 +1,48 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environment
+venv/
+myenv/
+.env/
+.envrc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# Logs
+*.log
+log.txt
+
+# Model checkpoints
+*.pth
+*.pt
+checkpoints/
+runs/
+outputs/
+
+# Data
+data/
+dataset/
+*.csv
+*.tsv
+*.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+# PyTorch Lightning & HuggingFace cache
+lightning_logs/
+cache/
+transformers_cache/
+huggingface/
+
+ViVQA-Models/
